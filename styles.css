@@ -1,0 +1,67 @@
+/* boilerplate style */
+html {
+  font-size: 62.5%; /*Standard is 16px - this makes it 10px */
+}
+
+html body {
+  font-size: 1.6rem; /*Makes it 16px*/
+  color: #333;
+  font-family: Spiegel, Arial Narrow, Arial, sans-serif;
+}
+
+a,
+a:hover,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/*main styles*/
+main{
+  min-height: 100vh;
+}
+
+.dark-blue {
+  background-color: #061c25;
+}
+.dark-blue-text {
+  color: #061c25;
+}
+
+.header-text {
+  text-shadow: black 4px 4px 4px;
+  background-color: #b6882b;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.white-text {
+  color: white;
+}
+
+.normal-text {
+  font-size: 2.5rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+
+/* font awesome styles */
+.fab {
+  font-size: 3rem;
+}
+.fa-twitter {
+  font-size: 2rem;
+}
+#twitter-icon {
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* media queries */
