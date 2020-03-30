@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* boilerplate style */
 html {
   font-size: 62.5%; /*Standard is 16px - this makes it 10px */
@@ -80,6 +79,12 @@ main{
   font-size: 4rem;
   width: 6rem;
 }
+
+/*Prevents entire icon from showing opacity 0.8*/
+.fa-twitter:hover {
+  opacity: 1.0 !important;
+}
+
 #twitter-icon {
   background-color: #b6882b;
   border-radius: 50%;
@@ -159,124 +164,3 @@ a:active,
 
 
 /* media queries */
-=======
-/* boilerplate style */
-html {
-  font-size: 62.5%; /*Standard is 16px - this makes it 10px */
-}
-
-html body {
-  font-size: 1.6rem; /*Makes it 16px*/
-  color: #333;
-  font-family: Spiegel, Arial Narrow, Arial, sans-serif;
-}
-
-a,
-a:hover,
-a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-}
-
-a {
-  color: #b6882b;
-}
-
-/*main styles*/
-main{
-  min-height: 100vh;
-}
-
-.dark-blue {
-  background-color: #061c25;
-}
-.dark-blue-text {
-  color: #061c25;
-}
-
-.header-text {
-  text-shadow: black 4px 4px 4px;
-  background-color: #b6882b;
-  text-transform: uppercase;
-  font-size: 5vh;
-  font-weight: 700;
-  letter-spacing: 6px;
-  width: 80%;
-  margin-left: 50px;
-  margin-right: 50px;
-
-}
-
-/*here to change first line to wrap sooner -- may use */
-.long-text {
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-.white-text {
-  color: white;
-}
-
-.normal-text {
-  font-size: 3rem;
-  font-weight: 500;
-}
-
-.center-text {
-  text-align: center;
-}
-
-.icon-color {
-  color: #b6882b;
-}
-
-/* font awesome styles */
-.fab {
-  font-size: 7rem;
-}
-.fa-twitter {
-  font-size: 4rem;
-  width: 6rem;
-}
-#twitter-icon {
-  background-color: #b6882b;
-  border-radius: 50%;
-
-}
-
-/* May use */
-.width {
-  width: 100% !important;
-}
-
-.video {
-  width: 100% !important;
-  height: 50vh !important;
-  margin-right: 150px;
-  margin-left: 150px;
-
-}
-
-
-button {
-  font-family: Beaufort for LOL,serif;
-  font-size: 1.7rem;
-  font-weight: 550;
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  color: #937341;
-  background-color: #111;
-  z-index: -1;
-  cursor: pointer;
-  height: 80px;
-  border-color: #937341;
-  box-shadow: 0 0 20px #937341;
-  transition: color .2s;
-  width: 200px;
-  -webkit-font-smoothing: antialiased;
-
-}
-
-/* media queries */
->>>>>>> 5456e564e89e7ddd50731ffc9d72b198f33b96c8
