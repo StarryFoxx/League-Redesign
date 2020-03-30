@@ -21,6 +21,10 @@ a {
   color: #b6882b;
 }
 
+.hover:hover {
+  color: #c4b998;
+}
+
 /*main styles*/
 main{
   min-height: 100vh;
@@ -65,9 +69,7 @@ main{
   text-align: center;
 }
 
-.icon-color {
-  color: #b6882b;
-}
+
 
 /* font awesome styles */
 .fab {
@@ -80,7 +82,25 @@ main{
 #twitter-icon {
   background-color: #b6882b;
   border-radius: 50%;
+}
 
+#twitter-icon:hover {
+  background-color: #c4b998;
+}
+
+.icon-color {
+  color: #b6882b;
+}
+
+.hover-icon:hover{
+  color: #c4b998;
+}
+
+.fab:active,
+#twitter-icon:active,
+a:active,
+.button:active {
+  opacity: 0.8;
 }
 
 /* May use */
@@ -93,11 +113,17 @@ main{
   height: 50vh !important;
   margin-right: 150px;
   margin-left: 150px;
+  border-width: thick;
+  border-color: #b6882b;
 
 }
 
+.video:hover {
+  border-color: #c4b998;
+}
 
-button {
+
+.button {
   font-family: Beaufort for LOL,serif;
   font-size: 1.7rem;
   font-weight: 550;
@@ -113,7 +139,22 @@ button {
   transition: color .2s;
   width: 200px;
   -webkit-font-smoothing: antialiased;
-
 }
+
+.button:hover {
+  box-shadow: 0 0 40px #937341;
+}
+
+.button:active {
+  outline-offset: 2px;
+  outline-width: 1px;
+  outline-style: dotted;
+  outline-color: #ecc572;
+  box-shadow: 0 0 30px #937341;
+}
+
+
+
+
 
 /* media queries */
