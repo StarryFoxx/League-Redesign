@@ -109,23 +109,18 @@ a:active,
   opacity: 0.8;
 }
 
-/* May use */
-.width {
-  width: 100% !important;
-}
 
-.video {
-  width: 100% !important;
-  height: 50vh !important;
-  margin-right: 150px;
-  margin-left: 150px;
-  border-width: thick;
-  border-color: #b6882b;
+.embed-responsive-item {
+  border-width: thick !important;
+  border-color: #b6882b !important;
+  border-style: solid !important;
+  padding: 2px !important;
+  border-radius: 12px;
 
 }
 
-.video:hover {
-  border-color: #c4b998;
+.embed-responsive-item:hover {
+  border-color: #c4b998 !important;
 }
 
 
